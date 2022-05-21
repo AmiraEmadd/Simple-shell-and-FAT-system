@@ -560,7 +560,7 @@ namespace ConsoleApp15
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to OS_PROJECT_VIRTUAL_DISK_SHELL\n\n");
-            Virtual_Disk.initalize(@"E:\Newfolder000\virtualDisk.txt");
+            Virtual_Disk.initalize("virtualDisk.txt");
             FAT_Table.createFAT();
             //FAT_Table.printFAT();
             //Console.WriteLine(newdirctory.parent);
