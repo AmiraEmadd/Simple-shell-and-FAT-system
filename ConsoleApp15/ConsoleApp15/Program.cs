@@ -515,7 +515,7 @@ namespace ConsoleApp15
                 current.DirOrFiles.Add(f);
                 //current.UpdateContent(d);
                 current.UpdateContent(f);
-                Console.WriteLine(f.content);
+                //Console.WriteLine(f.content);
                 //Console.WriteLine(f.dir_attr);
 
             }
